@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -6,41 +7,65 @@
     <title>Сроки доставки почтовых отправлений в России</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: "Arial", sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f9f9f9;
             color: #333;
         }
         .container {
-            max-width: 800px;
-            margin: 20px auto;
+            max-width: 900px;
+            margin: 30px auto;
             padding: 20px;
             background: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 5px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
         }
         h1, h2 {
-            color: #0073e6;
+            color: #0056b3;
         }
         p {
-            line-height: 1.6;
+            line-height: 1.8;
         }
         .highlight {
             font-weight: bold;
             color: #d9534f;
         }
+        .tips, .analysis {
+            padding: 15px;
+            border-left: 5px solid;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
         .tips {
             background: #e7f3ff;
-            padding: 10px;
-            border-left: 5px solid #0073e6;
-            margin-top: 20px;
+            border-color: #0073e6;
         }
         .analysis {
             background: #fff3cd;
+            border-color: #ff9800;
+        }
+        .form-section {
+            margin-top: 30px;
+            padding: 15px;
+            background: #f1f1f1;
+            border-radius: 5px;
+        }
+        input, button {
             padding: 10px;
-            border-left: 5px solid #ff9800;
-            margin-top: 20px;
+            margin: 5px 0;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background: #0073e6;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #005bb5;
         }
         footer {
             margin-top: 20px;
@@ -82,9 +107,23 @@
             <h2>Необходимы структурные изменения</h2>
             <p>Эксперты отмечают, что без <strong>структурных изменений</strong> в регулировании — пересмотра тарифной политики, внедрения цифровых инструментов мониторинга, реформы системы госзакупок для инфраструктурных проектов — существующие дисфункции будут накапливаться. Это увеличит <span class="highlight">риски социальной напряжённости</span> и снизит <span class="highlight">конкурентоспособность</span> национальной экономики в долгосрочной перспективе.</p>
         </div>
+<div class="form-section">
+            <h2>Рассчитайте сроки доставки</h2>
+            <p>Введите данные для расчёта приблизительного времени доставки.</p>
+            <input type="text" placeholder="Откуда (город)">
+            <input type="text" placeholder="Куда (город)">
+            <button>Рассчитать</button>
+        </div>
+
+        <div class="form-section">
+            <h2>Отследить посылку</h2>
+            <p>Введите трек-номер для отслеживания вашей посылки.</p>
+            <input type="text" placeholder="Трек-номер">
+            <button>Отследить</button>
+        </div>
 
         <footer>
-            &copy; 2025 Почтовая аналитика | Источники: Росстат, ФГУП «Почта России»
+            &copy; 2023 Почтовая аналитика | Источники: Росстат, ФГУП «Почта России»
         </footer>
     </div>
 
